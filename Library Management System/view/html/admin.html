@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/css/admin.css">
+    <title>Admin page</title>
+</head>
+
+<body>
+    <div class="div-1">
+        <div class="form">
+            <div class="button">
+
+                <button type="button" class="button1" onclick="login()">Log In</button>
+            </div>
+            <form id="login" class="input">
+                <input type="text" placeholder="Enter  User-Id" class="input2" required>
+                <input type="password" placeholder="Enter Password" class="input2" required>
+                <input type="checkbox" class="chech-box"> <span> Remember Password</span>
+                <button type="submit" class="submit"> Login</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+
+        function register() {
+            x.style.left = "-400px";
+
+        }
+
+        function login() {
+            x.style.left = "50px";
+        }
+    </script>
+
+
+</body>
+
+</html>
